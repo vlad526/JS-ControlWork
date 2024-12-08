@@ -1,6 +1,5 @@
 let Add = document.getElementById("addButton")
 Add.onclick = function Add() {
-    Add.preventDefault()
     const inputBox = document.getElementById("inputBox");
     const input = inputBox.value.trim();
     const List = document.getElementById("List");
@@ -44,7 +43,7 @@ Add.onclick = function Add() {
 
 //Функція сортування для value та name
 function sortList(type) {
-    sortList.preventDefault()
+
     const List = document.getElementById("List");
     const items = Array.from(List.children);
 
@@ -86,8 +85,7 @@ SortName.onclick = () => sortList("name");
 const Delete = document.getElementById("deleteButton")
 //Функція видалення.Видаляє обрані нами елементи
 Delete.onclick = function deleteSelected() {
-    deleteSelected.preventDefault()
-    const List = document.getElementById("pairList");
+    const List = document.getElementById("List");
     const selectedItems = Array.from(List.children).filter(item => item.classList.contains("selected"));
     selectedItems.forEach(item => item.remove());
 }

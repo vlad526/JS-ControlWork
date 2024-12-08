@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Name/Value Pair Manager</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/adaptation-mobile.css">
 </head>
 <body>
-$END$
+<div id="container">
+  <h3>Test</h3>
+  <h5>Name/Value pair</h5>
+  <div class="input-wrap">
+    <input type="text" id="inputBox" placeholder="Name=Value">
+    <button id="addButton">Add</button>
+  </div>
+  <h5>Name/Value pair list</h5>
+  <div id="list-container">
+    <ul id="List">
+    </ul>
+    <div id="button-wrap">
+      <button id="sortByNameButton">Sort by Name</button>
+      <button id="sortByValueButton">Sort by Value</button>
+      <button id="deleteButton">Delete</button>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
 </body>
 </html>

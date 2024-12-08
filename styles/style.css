@@ -28,7 +28,7 @@ h5 {
     opacity: 50%;
 }
 
-.form-group {
+.input-wrap {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
@@ -42,7 +42,7 @@ input{
     margin-right: 10px;
     border: 1px solid #b8b5b5;
 }
-.form-group button {
+.input-wrap button {
     margin-left: 60px;
 }
 button {
@@ -70,12 +70,12 @@ button:hover {
 
 }
 
-#button-group {
+#button-wrap {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
 }
 
-#button-group button {
+#button-wrap button {
     margin-bottom: 5px;
 }
