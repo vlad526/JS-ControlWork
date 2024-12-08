@@ -57,11 +57,11 @@ function sortList(type) {
 
         //Визначаємо що буде сортуватись name або value
         if (type === "name") {
-            fieldA = nameA.toLowerCase();
-            fieldB = nameB.toLowerCase();
+            fieldA = nameA
+            fieldB = nameB
         } else {
-            fieldA = valueA.toLowerCase();
-            fieldB = valueB.toLowerCase();
+            fieldA = valueA
+            fieldB = valueB
         }
 
         //Порівнюємо
